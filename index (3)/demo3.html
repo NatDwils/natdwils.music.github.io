@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio id="aud" controls>
+        <source src="recomended/faraar.mp3">
+    </audio>    
+    <button onclick="chg('recomended/Waande.mp3');">play</button>
+    <button onclick="chg('recomended/faraar.mp3');">play</button>
+    
+</body>
+<script>
+    function chg(music){
+document.getElementById('aud').pause();
+document.getElementById('aud').setAttribute('src',music);
+document.getElementById('aud').load();
+document.getElementById('aud').play();
+    }
+</script>
+</html>

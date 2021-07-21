@@ -1,0 +1,188 @@
+body{
+background-color: black;
+width: 100%;
+height: 100%;
+background-image: url(music\ system\ background\ -\ Yahoo\ Image\ Search\ Results\ -\ Google\ Chrome\ 6_14_2021\ 10_36_13\ PM\ \(2\).png);
+ background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+@media only screen and (max-width: 590px) {
+	.header
+	{
+		font-size:14px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.header
+	{
+		font-size:12px;
+	}
+}
+
+
+  .card {
+    margin:20px;
+    background-color: rgba(55, 68, 255, 0.281);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.555);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .carousel-inner {
+    padding:20px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #4d0046;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: center;
+  }
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+ 
+
+ #circle{
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   background-color: rgba(0, 0, 0, 0.658);
+   margin: 20px;
+ }
+
+
+    .scrollbar-ripe-malinka::-webkit-scrollbar-track {
+    background-color: #ffadad7a;
+    border-radius: 0; }
+    
+    .scrollbar-ripe-malinka::-webkit-scrollbar {
+    width: 15px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+    
+    .scrollbar {
+    position:initial;
+    padding: 30px;
+    overflow-y: scroll;
+    height: 450px; 
+float: right;
+background-color: rgba(255, 0, 212, 0.336);
+width: 80%;
+margin: 20px;
+align-items: center;
+justify-content: center;
+box-shadow: 5px 5px 5px 5px rgba(0, 8, 53, 0.555);
+}
+
+.collapsible {
+    background-color: rgba(83, 255, 226, 0.623);
+    color: rgb(0, 6, 97);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 5px;
+    padding: 20px;
+  }
+  
+.collapsible:hover {
+    background-color: rgba(84, 179, 131, 0.692);
+  }
+
+  .songbar{
+    height: 40px;
+    background-color: rgba(14, 0, 143, 0.445);
+    margin: 5px;
+    padding: 5px;;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 15px;
+    color: rgb(196, 203, 209);
+    font-family: cursive;
+  }
+  .songbar:hover{
+background-color: rgba(0, 17, 95, 0.486);
+  }
+#play1{
+  border-radius: 100px;
+  background-color: rgb(255, 89, 89);
+}
+
+#audiobar{
+  border-radius: 30px;
+  background-color: rgba(0, 255, 0, 0.336);
+  height: 100px;
+  margin: 10px;
+  padding:10px;
+  margin: 20px;
+  width: 80%;
+  float: right;
+  justify-content: center;
+}
+
+.img{
+  float: left;
+  border-radius: 100px;
+  background-image: url("th.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width:80px;
+  height:80px;
+}
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      outline: none;
+      height: 2px;
+      width: 200px;
+      margin: 0 15px;
+    }
+    input[type="range"]::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      height: 20px;
+      width: 20px;
+      background: #0c4e45;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .right input[type=range]{
+      width: 40%;
+    }
+  #pre,#next{
+border-radius: 100px;
+height:50px;
+width:50px;
+background-color: rgba(16, 58, 58, 0.514);
+margin: 10px;
+  }
+  #play{
+    border-radius: 100px;
+    height:50px;
+    width:50px;
+    background-color: rgba(16, 26, 58, 0.747);
+    margin: 10px;
+      }
+    
